@@ -2,7 +2,7 @@
 - hosts: all
 
   vars:
-    ansible_user: azureuser
+    ansible_user: azurerddemo
     ansible_password: 'Carona@202099'
     ansible_connection: winrm
     ansible_winrm_transport: ntlm
